@@ -18,3 +18,8 @@ body {
 .border {
     background-color: #90372B
 }
+
+.carousel-inner img {
+    height: 750px; 
+    object-fit: cover; 
+}
