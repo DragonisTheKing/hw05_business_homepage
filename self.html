@@ -7,12 +7,36 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+        }
+        .card-body {
+            background-color: #DDDD56;
+        }
+        .card {
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .checkout-box {
+            background-color: #90372B;
+            color: #ffffff;
+        }
+        .checkout-box .list-group-item {
+            background-color: #ffffff;
+            color: #212529;
+        }
+    </style>
 </head>
 <body>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-            <img src="images/logo.png" alt="Cool Logo" style="width:50px;" class="rounded-pill"> 
+                <img src="images/logo.png" alt="Cool Logo" style="width:50px;" class="rounded-pill"> 
             </a>
             <a class="navbar-brand" href="index.html">B.P.M</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -29,5 +53,102 @@
             </div>
         </div>
     </nav>
+
+    <div class="box px-4">
+        <h2>Our self-serving system contains many options, ranging from bases to vegetables for you to build and customize your own bowl / meal. Below are the options for you to pick from to create your meal quickly and efficiently.</h2>
+    </div>
+
+    <!-- container-fluid stretches the grid edge-to-edge across the whole screen width -->
+    <div class="container-fluid px-4 my-5">
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm" data-item="Rice (Brown & White)">
+                    <img src="images/rice.jpeg" class="card-img-top" alt="Rice option">
+                    <div class="card-body">
+                        <p class="card-text text-center">Rice (Brown & White)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm" data-item="Proteins (Chicken, Tofu, Fish)">
+                    <img src="images/meat.jpg" class="card-img-top" alt="Protein option">
+                    <div class="card-body">
+                        <p class="card-text text-center">Proteins (Chicken, Tofu, Fish)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm" data-item="Fresh Vegetables (Broccoli, Lettuce, Etc.)">
+                    <img src="images/vegetables.jpg" class="card-img-top" alt="Vegetable option">
+                    <div class="card-body">
+                        <p class="card-text text-center">Fresh Vegetables (Broccoli, Lettuce, Etc.)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm" data-item="Mac & Cheese">
+                    <img src="images/mac.webp" class="card-img-top" alt="mac option">
+                    <div class="card-body">
+                        <p class="card-text text-center">Mac & Cheese</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm" data-item="Spicy, Sweet, & Sour Sauces">
+                    <img src="images/saucee.jpg" class="card-img-top" alt="sauces option">
+                    <div class="card-body">
+                        <p class="card-text text-center">Spicy, Sweet, & Sour Sauces</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm" data-item="Cheeses (American, Cheddar, Etc.)">
+                    <img src="images/cheese.jpg" class="card-img-top" alt="Cheese option">
+                    <div class="card-body">
+                        <p class="card-text text-center">Cheeses (American, Cheddar, Etc.)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm" data-item="Fresh Fruit">
+                    <img src="images/fruites.jpg" class="card-img-top" alt="Fruit option">
+                    <div class="card-body">
+                        <p class="card-text text-center">Fresh Fruit</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm" data-item="Noodles & Soup">
+                    <img src="images/noodssoup.jpg" class="card-img-top" alt="noodles and soup option">
+                    <div class="card-body">
+                        <p class="card-text text-center">Noodles & Soup</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm" data-item="Nuts, Seeds, & More Toppings">
+                    <img src="images/toppings.jpg" class="card-img-top" alt="add option">
+                    <div class="card-body">
+                        <p class="card-text text-center">Nuts, Seeds, & More Toppings</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="container-fluid px-4 my-5">
+        <div class="row">
+            <div class="col-md-8 col-lg-6">
+                <div class="card p-4 shadow checkout-box">
+                    <h3 class="mb-3 text-white">Your Custom Bowl Checkout (Pretend)</h3>
+                    <ul id="bowl-list" class="list-group mb-3">
+                        <li class="list-group-item text-muted">Your bowl is currently empty. Click on the items above to add them to your bowl.</li>
+                    </ul>
+                    <button id="finish-btn" class="btn btn-light w-100 text-dark fw-bold" disabled>Finish Bowl</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
 </body>
 </html>
