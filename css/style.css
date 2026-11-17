@@ -100,3 +100,39 @@ body {
     text-transform: uppercase;
     letter-spacing: 0.5px;
 }
+
+.category-box {
+    background-color: #90372B;
+    border: 3px solid #766E6E;
+    border-radius: 12px;
+    padding: 25px;
+    color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    height: 100%;
+}
+
+.category-box.header-1 h2 {
+    color: #75893E;
+}
+
+.category-box.header-2 h2 {
+    color: #DDDD56;
+}
+
+.category-box.header-3 h2 {
+    color: #BF9125;
+}
+
+.category-box.header-4 h2 {
+    color: #000000;
+}
+
+.category-box ul {
+    margin-bottom: 0;
+    padding-left: 20px;
+}
+
+.category-box li {
+    font-size: 1.05rem;
+    margin-bottom: 8px;
+}
