@@ -23,3 +23,12 @@ body {
     height: 750px; 
     object-fit: cover; 
 }
+
+.active {
+  font-weight: bold;
+  background-color: #333333;
+}
+
+nav a:hover {
+        background-color: #90372B;
+}
