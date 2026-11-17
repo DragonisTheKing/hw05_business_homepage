@@ -43,3 +43,60 @@ nav a:hover {
   color: #000000;
   margin: 20px;
 }
+
+body {
+    padding-top: 90px;
+}
+
+.cafe-table {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+    border: 3px solid #90372B;
+    width: 100%;
+}
+
+.cafe-table thead th {
+    background-color: #90372B;
+    color: #ffffff;
+    font-size: 1.3rem; 
+    padding: 20px;   
+    border-bottom: 3px solid #75893E;
+}
+
+.cafe-table tbody td {
+    padding: 22px 20px; 
+    font-size: 1.15rem; 
+    vertical-align: middle;
+}
+
+.cafe-table.table-striped > tbody > tr:nth-of-type(odd) > * {
+    background-color: #DDDD56;
+    color: #212529;
+}
+
+.cafe-table.table-striped > tbody > tr:nth-of-type(even) > * {
+    background-color: #BF9125;
+    color: #ffffff;
+}
+
+.cafe-table tbody tr:hover {
+    background-color: rgba(221, 221, 86, 0.35);
+}
+
+.holiday-special {
+    background-color: #DDDD56;
+    font-weight: bold;
+    color: #212529;
+}
+
+.holiday-badge {
+    background-color: #90372B;
+    color: #ffffff;
+    font-size: 0.85rem;
+    padding: 5px 10px;
+    border-radius: 6px;
+    margin-left: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
